@@ -3,8 +3,10 @@ package cn.longkai.web.entity;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name = "_student")
 public class Student {
 
 	private int id;
